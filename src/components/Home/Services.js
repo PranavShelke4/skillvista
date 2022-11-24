@@ -24,7 +24,7 @@ function Services() {
 
           <div className="work-sections">
             <span className="Group-spans" id='span1'>
-              Assignments / Project for IT-Comp. Science
+              Assignments/Projects for CS-IT B.Sc/M.Sc, MCA, B.E/M.E students
             </span>
             <img alt="maged" className="Group1" src={Group2} />
           </div>
@@ -49,7 +49,7 @@ function Services() {
           </div>
 
           <div className="work-sections">
-            <span className="Group-spans" id='span1'>Trainings</span>
+            <span className="Group-spans" id='span1'>Trainings C, C++, Core Java, Adv Java, SQL</span>
             <img alt="mageg" className="Group1" src={Group6} />
           </div>
 

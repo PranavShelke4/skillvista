@@ -7,6 +7,22 @@
   );
   padding: 5%;
 }
+.Projectimg{
+  max-height: 26rem;
+  object-fit: cover;
+
+}
+/* 
+#dev-div:hover .Projectimg{
+  max-height: 45rem;
+
+}
+#dev-div:hover .projects-text2{
+display: none;
+}
+#dev-div:hover {
+  background: transparent!important;
+} */
 
 .our-projects {
   display: flex;
@@ -24,7 +40,7 @@
   border-radius: 9px;
   flex-direction: column;
   width: 30%;
-  height: 35rem;
+  height: 38rem;
 
 }
 .MobDev {
@@ -38,7 +54,7 @@
   background: linear-gradient(
     154.12deg,
     rgba(0, 97, 241, 0.91) 54.92%,
-    rgba(0, 209, 255, 0.61) 99.18%
+    rgba(0, 208, 255, 0.774) 99.18%
   );
 }
 .SoftDev {
@@ -60,17 +76,18 @@ color: #FFFFFF;
 }
 .projects-para{
   font-weight: 300;
-  font-size: 12px;
+  font-size: 15px;
+  text-align: left;
 
 }
 #dev-div:hover {
   transform: scale(1.1);
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 #projects-para {
   padding: 4%;
   text-align: center;
+  height: fit-content;
 
 }
 .Projectguideimg{
@@ -84,11 +101,14 @@ color: #FFFFFF;
   #dev-div {
     margin: 10% auto;
     width: 50%;
-    height: 34rem;
+    height: 40rem;
   }
   .our-projects-div {
     margin-top: 10rem;
     left: 0%;
+  }
+  .MobDev{
+    height: 25rem!important;
   }
 }
 @media only screen and (max-width: 600px) {

@@ -1,10 +1,14 @@
 import React from "react";
 import "../Styles/terms/terms.css";
 import Footer from "../components/footer";
+import Navbar1 from "../components/navbar";
+
 
 function Privacy() {
   return (
     <>
+          <Navbar1 />
+
       <div className="term-header">
         <h3 id="terms-title"> Privacy Policy</h3>
       </div>
